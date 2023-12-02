@@ -161,7 +161,7 @@ if (hola == 0):
 
 
 try:
-    CLOSE_THRESHOLD = 15  # distance in cm, adjust as needed
+    CLOSE_THRESHOLD = 10  # distance in cm, adjust as needed
     while True:
         # Trigger ultrasonic module
         GPIO.output(PIN_TRIGGER, GPIO.HIGH)
